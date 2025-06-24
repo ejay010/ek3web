@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import 'tailwindcss';
+
+@theme {
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-open-sans: 'Open Sans', sans-serif;
+    --color-primary: #008CFF; /* Electric Blue */
+    --color-secondary: #0A0A3C; /* Dark Navy */
+    --color-accent: #1C1C1C; /* Charcoal */
+}
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+
+
