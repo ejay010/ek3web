@@ -1,8 +1,8 @@
 <x-layout>
     {{-- Hero section --}}
     <div class="flex flex-col items-center justify-center h-screen text-accent text-center bg-gray-100">
-        <h1 class="text-5xl font-montserrat font-bold text-shadow-md text-primary">Digital Solutions to simplify your Business.</h1>
-        <p class="mt-4 mx-1 text-lg font-open-sans">We build custom web applications for your business needs.</p>
+        <h1 class="text-5xl font-montserrat font-bold text-shadow-md text-primary">Build Better Websites for Your Business.</h1>
+        <p class="mt-4 mx-1 text-lg font-open-sans">Hi. I'm a freelance web developer based in The Bahamas. I specialize in building fast, secure, and custom web applications using PHP and Laravel. Whether you need a new website or a custom booking system, I can help bring your ideas to life. </p>
         <button class="mt-6 px-8 py-4 bg-primary text-white text-lg font-semibold rounded hover:bg-secondary transition duration-300">
             <a href="#contact">Contact Us</a>
         </button>    
@@ -12,7 +12,7 @@
     <section class="max-w-4xl mx-auto px-4 py-12 bg-white shadow-lg rounded-lg mt-12" id="about">
         <h2 class="text-3xl font-montserrat font-bold text-center text-primary mt-12">About Us</h2>
         <p class="max-w-2xl mx-auto mt-4 text-lg font-open-sans text-center text-accent">
-            EK3 Solutions is a leading provider of custom web applications, dedicated to helping businesses streamline their operations and enhance their online presence.
+            I'm a Bahamian web developer with a strong background in PHP and Laravel. I've been working with web technologies for 6+ years, helping small businesses and entrepreneurs bring their ideas online. I understand how important it is for local businesses to have reliable, easy-to-use tools -- and that's exactly what I build.
         </p>
     </section>
 
@@ -50,7 +50,7 @@
         <div class="flex justify-center">
             <a href="https://wa.me/12425565952?text=Hello%20EK3%20Solutions!%20I%20would%20like%20to%20inquire%20about%20your%20services." target="_blank" class="flex items-center bg-white rounded-full shadow-lg p-2 m-4 hover:bg-accent/5 transition duration-300">
             <img src="{{ Vite::asset('resources/images/WhatsappWhite.svg') }}">
-        </a>
+            </a>
         </div>
         </section>
 </x-layout>
